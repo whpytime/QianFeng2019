@@ -200,12 +200,16 @@
 # print(t)
 
 
-dic = {1: 'a', 'b': 2}
-for i in dic.items():
-	print(i)
-print(type(i))
-print(dic.items())
+# dic = {1: 'a', 'b': 2}
+# for i in dic.items():
+# 	print(i)
+# print(type(i))
+# print(dic.items())
 
 
+s = 'abcD Ef'
+print(s.capitalize())
+print(s.title())
+print(s.find('A'))
 
 
