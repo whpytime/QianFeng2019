@@ -207,9 +207,30 @@
 # print(dic.items())
 
 
-s = 'abcD Ef'
-print(s.capitalize())
-print(s.title())
-print(s.find('A'))
+# s = 'abcD Ef'
+# print(s.capitalize())
+# print(s.title())
+# print(s.find('A'))
+
+
+# s = '中国'
+# s1 = s.encode('utf-8')
+# print(s1)
+# s2 = s1.decode('utf-8')
+# print(s2)
+# s3 = s1.decode('gbk')
+# print(s3)
+
+
+# lst = [1, 'a', True]
+# for i in lst:
+# 	print(i)
+
+
+lst = [1, 'a', 'ab', ['a', 2]]
+while 'a' in lst:
+	lst.remove('a')
+print(lst)
+
 
 
