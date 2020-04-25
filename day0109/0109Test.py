@@ -131,7 +131,7 @@
 # print(set1.symmetric_difference(set2))
 
 
-lst = list('abc')
-print(lst)
+# lst = list('abc')
+# print(lst)
 
 
